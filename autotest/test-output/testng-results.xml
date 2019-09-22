@@ -1,77 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="12" passed="10">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="testgroups" duration-ms="141" started-at="2019-09-22T07:19:53Z" finished-at="2019-09-22T07:19:53Z">
+  <suite name="Default suite" duration-ms="63" started-at="2019-09-22T08:01:04Z" finished-at="2019-09-22T08:01:04Z">
     <groups>
-      <group name="teacher">
-        <method signature="GroupsOnClass3.teacher1()[pri:0, instance:com.source.code.groups.GroupsOnClass3@4590c9c3]" name="teacher1" class="com.source.code.groups.GroupsOnClass3"/>
-        <method signature="GroupsOnClass3.teacher2()[pri:0, instance:com.source.code.groups.GroupsOnClass3@4590c9c3]" name="teacher2" class="com.source.code.groups.GroupsOnClass3"/>
-      </group> <!-- teacher -->
-      <group name="stu">
-        <method signature="GroupsOnClass1.stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass1@7946e1f4]" name="stu1" class="com.source.code.groups.GroupsOnClass1"/>
-        <method signature="GroupsOnClass1.stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass1@7946e1f4]" name="stu2" class="com.source.code.groups.GroupsOnClass1"/>
-        <method signature="GroupsOnClass2.stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass2@b97c004]" name="stu1" class="com.source.code.groups.GroupsOnClass2"/>
-        <method signature="GroupsOnClass2.stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass2@b97c004]" name="stu2" class="com.source.code.groups.GroupsOnClass2"/>
-        <method signature="GroupsOnClass1.stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass1@3a82f6ef]" name="stu1" class="com.source.code.groups.GroupsOnClass1"/>
-        <method signature="GroupsOnClass1.stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass1@3a82f6ef]" name="stu2" class="com.source.code.groups.GroupsOnClass1"/>
-        <method signature="GroupsOnClass2.stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass2@100fc185]" name="stu1" class="com.source.code.groups.GroupsOnClass2"/>
-        <method signature="GroupsOnClass2.stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass2@100fc185]" name="stu2" class="com.source.code.groups.GroupsOnClass2"/>
-      </group> <!-- stu -->
     </groups>
-    <test name="testall" duration-ms="78" started-at="2019-09-22T07:19:53Z" finished-at="2019-09-22T07:19:53Z">
-      <class name="com.source.code.groups.GroupsOnClass1">
-        <test-method status="PASS" signature="stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass1@7946e1f4]" name="stu1" duration-ms="16" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
+    <test name="Default test" duration-ms="63" started-at="2019-09-22T08:01:04Z" finished-at="2019-09-22T08:01:04Z">
+      <class name="com.source.code.autotest.DependTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.source.code.autotest.DependTest@b97c004]" name="test1" duration-ms="16" started-at="2019-09-22T01:01:04Z" finished-at="2019-09-22T01:01:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- stu1 -->
-        <test-method status="PASS" signature="stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass1@7946e1f4]" name="stu2" duration-ms="16" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.source.code.autotest.DependTest@b97c004]" name="test2" duration-ms="0" started-at="2019-09-22T01:01:04Z" depends-on-methods="com.source.code.autotest.DependTest.test1" finished-at="2019-09-22T01:01:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- stu2 -->
-      </class> <!-- com.source.code.groups.GroupsOnClass1 -->
-      <class name="com.source.code.groups.GroupsOnClass2">
-        <test-method status="PASS" signature="stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass2@b97c004]" name="stu1" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stu1 -->
-        <test-method status="PASS" signature="stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass2@b97c004]" name="stu2" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stu2 -->
-      </class> <!-- com.source.code.groups.GroupsOnClass2 -->
-      <class name="com.source.code.groups.GroupsOnClass3">
-        <test-method status="PASS" signature="teacher1()[pri:0, instance:com.source.code.groups.GroupsOnClass3@4590c9c3]" name="teacher1" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teacher1 -->
-        <test-method status="PASS" signature="teacher2()[pri:0, instance:com.source.code.groups.GroupsOnClass3@4590c9c3]" name="teacher2" duration-ms="15" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teacher2 -->
-      </class> <!-- com.source.code.groups.GroupsOnClass3 -->
-    </test> <!-- testall -->
-    <test name="OnlyRunStu" duration-ms="16" started-at="2019-09-22T07:19:53Z" finished-at="2019-09-22T07:19:53Z">
-      <class name="com.source.code.groups.GroupsOnClass1">
-        <test-method status="PASS" signature="stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass1@3a82f6ef]" name="stu1" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stu1 -->
-        <test-method status="PASS" signature="stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass1@3a82f6ef]" name="stu2" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stu2 -->
-      </class> <!-- com.source.code.groups.GroupsOnClass1 -->
-      <class name="com.source.code.groups.GroupsOnClass2">
-        <test-method status="PASS" signature="stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass2@100fc185]" name="stu1" duration-ms="16" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stu1 -->
-        <test-method status="PASS" signature="stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass2@100fc185]" name="stu2" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stu2 -->
-      </class> <!-- com.source.code.groups.GroupsOnClass2 -->
-    </test> <!-- OnlyRunStu -->
-  </suite> <!-- testgroups -->
+        </test-method> <!-- test2 -->
+      </class> <!-- com.source.code.autotest.DependTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
