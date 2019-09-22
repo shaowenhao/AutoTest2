@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63" started-at="2019-09-22T08:01:04Z" finished-at="2019-09-22T08:01:04Z">
+  <suite name="testParameter" duration-ms="32" started-at="2019-09-22T10:30:37Z" finished-at="2019-09-22T10:30:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63" started-at="2019-09-22T08:01:04Z" finished-at="2019-09-22T08:01:04Z">
-      <class name="com.source.code.autotest.DependTest">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.source.code.autotest.DependTest@b97c004]" name="test1" duration-ms="16" started-at="2019-09-22T01:01:04Z" finished-at="2019-09-22T01:01:04Z">
+    <test name="parameter" duration-ms="32" started-at="2019-09-22T10:30:37Z" finished-at="2019-09-22T10:30:37Z">
+      <class name="com.source.code.parameter.ParameterTest">
+        <test-method status="PASS" signature="paramTest(java.lang.String, int)[pri:0, instance:com.source.code.parameter.ParameterTest@2669b199]" name="paramTest" duration-ms="16" started-at="2019-09-22T03:30:37Z" finished-at="2019-09-22T03:30:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zhangsan ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.source.code.autotest.DependTest@b97c004]" name="test2" duration-ms="0" started-at="2019-09-22T01:01:04Z" depends-on-methods="com.source.code.autotest.DependTest.test1" finished-at="2019-09-22T01:01:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- com.source.code.autotest.DependTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- paramTest -->
+      </class> <!-- com.source.code.parameter.ParameterTest -->
+    </test> <!-- parameter -->
+  </suite> <!-- testParameter -->
 </testng-results>
