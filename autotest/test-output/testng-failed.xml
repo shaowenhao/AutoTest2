@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [testParameter]">
-  <test name="parameter(failed)">
-    <parameter name="name" value="zhangsan "/>
-    <parameter name="age" value="10 "/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.source.code.parameter.ParameterTest">
+      <class name="com.source.code.parameter.DataProviderTest">
         <methods>
-          <include name="paramTest"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- com.source.code.parameter.ParameterTest -->
+      </class> <!-- com.source.code.parameter.DataProviderTest -->
     </classes>
-  </test> <!-- parameter(failed) -->
-</suite> <!-- Failed suite [testParameter] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

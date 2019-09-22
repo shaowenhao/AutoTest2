@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="testParameter" duration-ms="32" started-at="2019-09-22T10:30:37Z" finished-at="2019-09-22T10:30:37Z">
+  <suite name="Default suite" duration-ms="47" started-at="2019-09-22T12:06:23Z" finished-at="2019-09-22T12:06:23Z">
     <groups>
     </groups>
-    <test name="parameter" duration-ms="32" started-at="2019-09-22T10:30:37Z" finished-at="2019-09-22T10:30:37Z">
-      <class name="com.source.code.parameter.ParameterTest">
-        <test-method status="PASS" signature="paramTest(java.lang.String, int)[pri:0, instance:com.source.code.parameter.ParameterTest@2669b199]" name="paramTest" duration-ms="16" started-at="2019-09-22T03:30:37Z" finished-at="2019-09-22T03:30:37Z">
+    <test name="Default test" duration-ms="47" started-at="2019-09-22T12:06:23Z" finished-at="2019-09-22T12:06:23Z">
+      <class name="com.source.code.parameter.DataProviderTest">
+        <test-method status="PASS" signature="test2(java.lang.String, int)[pri:0, instance:com.source.code.parameter.DataProviderTest@2344fc66]" name="test2" duration-ms="16" started-at="2019-09-22T05:06:23Z" data-provider="methodData" finished-at="2019-09-22T05:06:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[zhangsan ]]>
+                <![CDATA[philip]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[40]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paramTest -->
-      </class> <!-- com.source.code.parameter.ParameterTest -->
-    </test> <!-- parameter -->
-  </suite> <!-- testParameter -->
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.lang.String, int)[pri:0, instance:com.source.code.parameter.DataProviderTest@2344fc66]" name="test2" duration-ms="0" started-at="2019-09-22T05:06:23Z" data-provider="methodData" finished-at="2019-09-22T05:06:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jesica]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.source.code.parameter.DataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
