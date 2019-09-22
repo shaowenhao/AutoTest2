@@ -9,7 +9,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class BasicAnnotation {
-	@Test
+	//ignore test
+	@Test (enabled = false)
   public void testcase1() {
 		System.out.println("test case 1");
 	}

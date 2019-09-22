@@ -1,53 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="12" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="test" duration-ms="78" started-at="2019-09-21T14:31:08Z" finished-at="2019-09-21T14:31:08Z">
+  <suite name="testgroups" duration-ms="141" started-at="2019-09-22T07:19:53Z" finished-at="2019-09-22T07:19:53Z">
     <groups>
+      <group name="teacher">
+        <method signature="GroupsOnClass3.teacher1()[pri:0, instance:com.source.code.groups.GroupsOnClass3@4590c9c3]" name="teacher1" class="com.source.code.groups.GroupsOnClass3"/>
+        <method signature="GroupsOnClass3.teacher2()[pri:0, instance:com.source.code.groups.GroupsOnClass3@4590c9c3]" name="teacher2" class="com.source.code.groups.GroupsOnClass3"/>
+      </group> <!-- teacher -->
+      <group name="stu">
+        <method signature="GroupsOnClass1.stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass1@7946e1f4]" name="stu1" class="com.source.code.groups.GroupsOnClass1"/>
+        <method signature="GroupsOnClass1.stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass1@7946e1f4]" name="stu2" class="com.source.code.groups.GroupsOnClass1"/>
+        <method signature="GroupsOnClass2.stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass2@b97c004]" name="stu1" class="com.source.code.groups.GroupsOnClass2"/>
+        <method signature="GroupsOnClass2.stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass2@b97c004]" name="stu2" class="com.source.code.groups.GroupsOnClass2"/>
+        <method signature="GroupsOnClass1.stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass1@3a82f6ef]" name="stu1" class="com.source.code.groups.GroupsOnClass1"/>
+        <method signature="GroupsOnClass1.stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass1@3a82f6ef]" name="stu2" class="com.source.code.groups.GroupsOnClass1"/>
+        <method signature="GroupsOnClass2.stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass2@100fc185]" name="stu1" class="com.source.code.groups.GroupsOnClass2"/>
+        <method signature="GroupsOnClass2.stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass2@100fc185]" name="stu2" class="com.source.code.groups.GroupsOnClass2"/>
+      </group> <!-- stu -->
     </groups>
-    <test name="login" duration-ms="31" started-at="2019-09-21T14:31:08Z" finished-at="2019-09-21T14:31:08Z">
-      <class name="com.source.code.autotest.suite.LoginTest">
-        <test-method status="PASS" signature="loginTaoBao()[pri:0, instance:com.source.code.autotest.suite.LoginTest@402f32ff]" name="loginTaoBao" duration-ms="0" started-at="2019-09-21T07:31:08Z" finished-at="2019-09-21T07:31:08Z">
+    <test name="testall" duration-ms="78" started-at="2019-09-22T07:19:53Z" finished-at="2019-09-22T07:19:53Z">
+      <class name="com.source.code.groups.GroupsOnClass1">
+        <test-method status="PASS" signature="stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass1@7946e1f4]" name="stu1" duration-ms="16" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTaoBao -->
-      </class> <!-- com.source.code.autotest.suite.LoginTest -->
-      <class name="com.source.code.autotest.suite.SuiteConfig">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.source.code.autotest.suite.SuiteConfig@48eff760]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-09-21T07:31:08Z" finished-at="2019-09-21T07:31:08Z">
+        </test-method> <!-- stu1 -->
+        <test-method status="PASS" signature="stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass1@7946e1f4]" name="stu2" duration-ms="16" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.source.code.autotest.suite.SuiteConfig@48eff760]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-21T07:31:08Z" finished-at="2019-09-21T07:31:08Z">
+        </test-method> <!-- stu2 -->
+      </class> <!-- com.source.code.groups.GroupsOnClass1 -->
+      <class name="com.source.code.groups.GroupsOnClass2">
+        <test-method status="PASS" signature="stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass2@b97c004]" name="stu1" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.source.code.autotest.suite.SuiteConfig -->
-    </test> <!-- login -->
-    <test name="pay" duration-ms="16" started-at="2019-09-21T14:31:08Z" finished-at="2019-09-21T14:31:08Z">
-      <class name="com.source.code.autotest.suite.SuiteConfig">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.source.code.autotest.suite.SuiteConfig@7dc7cbad]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2019-09-21T07:31:08Z" finished-at="2019-09-21T07:31:08Z">
+        </test-method> <!-- stu1 -->
+        <test-method status="PASS" signature="stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass2@b97c004]" name="stu2" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.source.code.autotest.suite.SuiteConfig@7dc7cbad]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-09-21T07:31:08Z" finished-at="2019-09-21T07:31:08Z">
+        </test-method> <!-- stu2 -->
+      </class> <!-- com.source.code.groups.GroupsOnClass2 -->
+      <class name="com.source.code.groups.GroupsOnClass3">
+        <test-method status="PASS" signature="teacher1()[pri:0, instance:com.source.code.groups.GroupsOnClass3@4590c9c3]" name="teacher1" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.source.code.autotest.suite.SuiteConfig@7dc7cbad]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-09-21T07:31:08Z" finished-at="2019-09-21T07:31:08Z">
+        </test-method> <!-- teacher1 -->
+        <test-method status="PASS" signature="teacher2()[pri:0, instance:com.source.code.groups.GroupsOnClass3@4590c9c3]" name="teacher2" duration-ms="15" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.source.code.autotest.suite.SuiteConfig@7dc7cbad]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-21T07:31:08Z" finished-at="2019-09-21T07:31:08Z">
+        </test-method> <!-- teacher2 -->
+      </class> <!-- com.source.code.groups.GroupsOnClass3 -->
+    </test> <!-- testall -->
+    <test name="OnlyRunStu" duration-ms="16" started-at="2019-09-22T07:19:53Z" finished-at="2019-09-22T07:19:53Z">
+      <class name="com.source.code.groups.GroupsOnClass1">
+        <test-method status="PASS" signature="stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass1@3a82f6ef]" name="stu1" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.source.code.autotest.suite.SuiteConfig -->
-      <class name="com.source.code.autotest.suite.PayTest">
-        <test-method status="PASS" signature="payTest()[pri:0, instance:com.source.code.autotest.suite.PayTest@d2cc05a]" name="payTest" duration-ms="16" started-at="2019-09-21T07:31:08Z" finished-at="2019-09-21T07:31:08Z">
+        </test-method> <!-- stu1 -->
+        <test-method status="PASS" signature="stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass1@3a82f6ef]" name="stu2" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- payTest -->
-      </class> <!-- com.source.code.autotest.suite.PayTest -->
-    </test> <!-- pay -->
-  </suite> <!-- test -->
+        </test-method> <!-- stu2 -->
+      </class> <!-- com.source.code.groups.GroupsOnClass1 -->
+      <class name="com.source.code.groups.GroupsOnClass2">
+        <test-method status="PASS" signature="stu1()[pri:0, instance:com.source.code.groups.GroupsOnClass2@100fc185]" name="stu1" duration-ms="16" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stu1 -->
+        <test-method status="PASS" signature="stu2()[pri:0, instance:com.source.code.groups.GroupsOnClass2@100fc185]" name="stu2" duration-ms="0" started-at="2019-09-22T00:19:53Z" finished-at="2019-09-22T00:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stu2 -->
+      </class> <!-- com.source.code.groups.GroupsOnClass2 -->
+    </test> <!-- OnlyRunStu -->
+  </suite> <!-- testgroups -->
 </testng-results>

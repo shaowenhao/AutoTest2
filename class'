@@ -1,0 +1,55 @@
+[master 790bbdb] test suite about testng xml which can not named tesng.xml,suite-
+ 55 files changed, 1511 insertions(+), 52 deletions(-)
+ delete mode 100644 autotest/src/main/java/com/source/code/autotest/App.java
+ create mode 100644 autotest/src/main/java/com/source/code/autotest/suite/LoginTest.java
+ create mode 100644 autotest/src/main/java/com/source/code/autotest/suite/PayTest.java
+ create mode 100644 autotest/src/main/java/com/source/code/autotest/suite/SuiteConfig.java
+ create mode 100644 autotest/src/main/resources/suite.xml
+ delete mode 100644 autotest/src/test/java/com/source/code/autotest/AppTest.java
+ create mode 100644 autotest/test-output/Default suite/Default test.html
+ create mode 100644 autotest/test-output/Default suite/Default test.xml
+ create mode 100644 autotest/test-output/bullet_point.png
+ create mode 100644 autotest/test-output/collapseall.gif
+ create mode 100644 autotest/test-output/emailable-report.html
+ create mode 100644 autotest/test-output/failed.png
+ create mode 100644 autotest/test-output/index.html
+ create mode 100644 autotest/test-output/jquery-1.7.1.min.js
+ create mode 100644 autotest/test-output/junitreports/TEST-com.source.code.autotest.BasicAnnotation.xml
+ create mode 100644 autotest/test-output/junitreports/TEST-com.source.code.autotest.BasicAnnotation2.xml
+ create mode 100644 autotest/test-output/junitreports/TEST-com.source.code.autotest.suite.LoginTest.xml
+ create mode 100644 autotest/test-output/junitreports/TEST-com.source.code.autotest.suite.PayTest.xml
+ create mode 100644 autotest/test-output/navigator-bullet.png
+ create mode 100644 autotest/test-output/old/Default suite/Default test.properties
+ create mode 100644 autotest/test-output/old/Default suite/classes.html
+ create mode 100644 autotest/test-output/old/Default suite/groups.html
+ create mode 100644 autotest/test-output/old/Default suite/index.html
+ create mode 100644 autotest/test-output/old/Default suite/main.html
+ create mode 100644 autotest/test-output/old/Default suite/methods-alphabetical.html
+ create mode 100644 autotest/test-output/old/Default suite/methods-not-run.html
+ create mode 100644 autotest/test-output/old/Default suite/methods.html
+ create mode 100644 autotest/test-output/old/Default suite/reporter-output.html
+ create mode 100644 autotest/test-output/old/Default suite/testng.xml.html
+ create mode 100644 autotest/test-output/old/Default suite/toc.html
+ create mode 100644 autotest/test-output/old/index.html
+ create mode 100644 autotest/test-output/old/test/classes.html
+ create mode 100644 autotest/test-output/old/test/groups.html
+ create mode 100644 autotest/test-output/old/test/index.html
+ create mode 100644 autotest/test-output/old/test/login.properties
+ create mode 100644 autotest/test-output/old/test/main.html
+ create mode 100644 autotest/test-output/old/test/methods-alphabetical.html
+ create mode 100644 autotest/test-output/old/test/methods-not-run.html
+ create mode 100644 autotest/test-output/old/test/methods.html
+ create mode 100644 autotest/test-output/old/test/pay.properties
+ create mode 100644 autotest/test-output/old/test/reporter-output.html
+ create mode 100644 autotest/test-output/old/test/testng.xml.html
+ create mode 100644 autotest/test-output/old/test/toc.html
+ create mode 100644 autotest/test-output/passed.png
+ create mode 100644 autotest/test-output/skipped.png
+ create mode 100644 autotest/test-output/test/login.html
+ create mode 100644 autotest/test-output/test/login.xml
+ create mode 100644 autotest/test-output/test/pay.html
+ create mode 100644 autotest/test-output/test/pay.xml
+ create mode 100644 autotest/test-output/testng-reports.css
+ create mode 100644 autotest/test-output/testng-reports.js
+ create mode 100644 autotest/test-output/testng-results.xml
+ create mode 100644 autotest/test-output/testng.css
