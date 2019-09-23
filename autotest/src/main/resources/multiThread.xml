@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- parallel on different level "methods tests classs" -->
+<!-- methods: all test cases would under diff threads -->
+<!-- tests  and class the same as tests: diff test/class tag's test case run with diff threads; same test/class  tag's test case run with same thread -->
+<suite name="thread" parallel="methods" thread-count="2">
+<test name="demo">
+  <classes name="d1">
+   <class name="com.source.code.multithread.MultiThreadOnXml"/>
+  </classes>
+</test>
+</suite>

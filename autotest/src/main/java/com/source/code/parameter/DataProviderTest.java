@@ -35,7 +35,7 @@ public class DataProviderTest {
 	
 	  @DataProvider(name="methodData")
 	  public Object[][] methodaTest(Method method){
-		  Object[][] result = null;
+		  Object[][] result = null; 
 		  if (method.getName().equals("test1")) {
 			  result = new Object[][] {
 				  {"ryan",30},

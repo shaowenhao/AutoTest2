@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47" started-at="2019-09-22T12:06:23Z" finished-at="2019-09-22T12:06:23Z">
+  <suite name="thread" duration-ms="78" started-at="2019-09-23T13:07:09Z" finished-at="2019-09-23T13:07:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47" started-at="2019-09-22T12:06:23Z" finished-at="2019-09-22T12:06:23Z">
-      <class name="com.source.code.parameter.DataProviderTest">
-        <test-method status="PASS" signature="test2(java.lang.String, int)[pri:0, instance:com.source.code.parameter.DataProviderTest@2344fc66]" name="test2" duration-ms="16" started-at="2019-09-22T05:06:23Z" data-provider="methodData" finished-at="2019-09-22T05:06:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[philip]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[40]]>
-              </value>
-            </param>
-          </params>
+    <test name="demo" duration-ms="78" started-at="2019-09-23T13:07:09Z" finished-at="2019-09-23T13:07:09Z">
+      <class name="com.source.code.multithread.MultiThreadOnXml">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.source.code.multithread.MultiThreadOnXml@32e6e9c3]" name="test2" duration-ms="16" started-at="2019-09-23T06:07:09Z" finished-at="2019-09-23T06:07:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test2(java.lang.String, int)[pri:0, instance:com.source.code.parameter.DataProviderTest@2344fc66]" name="test2" duration-ms="0" started-at="2019-09-22T05:06:23Z" data-provider="methodData" finished-at="2019-09-22T05:06:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jesica]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[40]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.source.code.multithread.MultiThreadOnXml@32e6e9c3]" name="test1" duration-ms="16" started-at="2019-09-23T06:07:09Z" finished-at="2019-09-23T06:07:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- com.source.code.parameter.DataProviderTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.source.code.multithread.MultiThreadOnXml@32e6e9c3]" name="test3" duration-ms="0" started-at="2019-09-23T06:07:09Z" finished-at="2019-09-23T06:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.source.code.multithread.MultiThreadOnXml -->
+    </test> <!-- demo -->
+  </suite> <!-- thread -->
 </testng-results>
