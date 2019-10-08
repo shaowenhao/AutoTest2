@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="extentReport">
+
+
+<listeners>
+ <listner class-name="com.source.code.extentreport.TestngListener">
+ </listner>
+</listeners>
+
+<test name="test">
+  <classes>
+    <class name="com.source.code.extentreport.TestMethodDemo">
+      <methods>
+        <include name="test1"/>
+
+      </methods>
+    </class>
+    </classes>
+</test>
+
+</suite>
