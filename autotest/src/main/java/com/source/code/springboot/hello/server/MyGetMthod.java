@@ -18,10 +18,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @RestController
-@Api(value = "/",description="this all my get methods")
+//@Api(value = "/",description="this all my get methods")
 public class MyGetMthod {
     @RequestMapping(value="/getCookies",method = RequestMethod.GET)
-    @ApiOperation(value = "Invoke this method would get cookies",httpMethod = "GET")
+  //  @ApiOperation(value = "Invoke this method would get cookies",httpMethod = "GET")
 	public String getCookies(HttpServletResponse response) {
     	
     	//zhuang xiangyin xinxi de lei
@@ -32,7 +32,7 @@ public class MyGetMthod {
     
   //Client access with Cookies, Use JMETER HTTP Cookies manager -> HTTP request ->View Result TREE
     @RequestMapping(value="/demo/with/cookies",method = RequestMethod.GET )
-    @ApiOperation(value = "Client access with Cookies",httpMethod = "GET")
+   // @ApiOperation(value = "Client access with Cookies",httpMethod = "GET")
     public String getWithCookies(HttpServletRequest request) {
     	Cookie[] cookies = request.getCookies();
     	if (Objects.isNull(cookies)) {
@@ -53,7 +53,7 @@ public class MyGetMthod {
     // 2. @PathVariable  e.g. http://localhost:8888/get/with/parameter/10/1
     // if secnario2 @RequestMapping(value="/get/with/parameter/{start}/{end}")
     @RequestMapping(value="/get/with/parameter",method = RequestMethod.GET)
-    @ApiOperation(value = "Get request need have parameter",httpMethod = "GET")
+   // @ApiOperation(value = "Get request need have parameter",httpMethod = "GET")
      public Map<String, Integer> getList(@RequestParam Integer start, @RequestParam Integer end){
     	 Map<String, Integer> myListMap = new HashMap<String, Integer>();
     	 myListMap.put("noodle", 1);

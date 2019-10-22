@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication 
-@ComponentScan("com.course") 
+@ComponentScan("com.source.code.springboot.hello.server") 
 // Inorder to include the SwaggerConfig which under com.course.config 
 public class Application {
 
